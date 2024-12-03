@@ -1,5 +1,5 @@
 class Cooldown:
-    def __init__( self, time ):
+    def __init__( self, time = 0 ):
         self.time = time
         self.timer = 0
         self.running = False
